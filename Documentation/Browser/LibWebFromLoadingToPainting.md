@@ -80,7 +80,7 @@ The cascade origin determines the processing order for rules. The "user-agent" s
 
 Note: the user-agent style is a built-in CSS style sheet that lives in the LibWeb source code [here](https://github.com/LadybirdBrowser/ladybird/blob/master/Userland/Libraries/LibWeb/CSS/Default.css).
 
-The end product of style computation is a fully populated StyleProperties object. It has a CSSStyleValue for each CSS::PropertyID. In spec parlance, these are the _computed_ values. (Note that these are not the same as you get from `getComputedStyle()`, that API returns the _resolved_ values.)
+The end product of style computation is a fully populated StyleProperties object. It has a CSSStyleValue for each CSS::PropertyID. In spec parlance, these are the *computed* values. (Note that these are not the same as you get from `getComputedStyle()`, that API returns the *resolved* values.)
 
 #### Resolving CSS custom properties ("variables")
 
@@ -167,4 +167,4 @@ The stacking context tree is rooted at the ICB, and can have zero or more descen
 Painting follows the order specified in the CSS2 appendix E. The rules are quite involved, but two main things to know about:
 
 -   Painting is driven through stacking contexts, which are painted back-to-front (stacking context tree order)
--   Painting is performed in _phases_. For each stacking context, we paint in order: backgrounds & borders, floats, backgrounds & borders for inline and replaced content, foreground (text), focus outlines and overlays.
+-   Painting is performed in *phases*. For each stacking context, we paint in order: backgrounds & borders, floats, backgrounds & borders for inline and replaced content, foreground (text), focus outlines and overlays.

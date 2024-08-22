@@ -89,8 +89,8 @@ allows you to use an integer argument instead of a hard-coded number.
 ### Type specifiers
 
 | Type      | Effect                | Example output           |
-| --------- | --------------------- | ------------------------ |
-| _nothing_ | default format        | Anything! :^)            |
+|-----------| --------------------- | ------------------------ |
+| *nothing* | default format        | Anything! :^)            |
 | b         | binary                | `110`, `0b000110`        |
 | B         | binary uppercase      | `110`, `0B000110`        |
 | d         | decimal               | `42`, `+0000042`         |

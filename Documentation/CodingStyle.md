@@ -514,7 +514,7 @@ draw_jpg(); // FIXME(joe): Make this code handle jpg in addition to the png supp
 draw_jpg(); // TODO: Make this code handle jpg in addition to the png support.
 ```
 
-Explain _why_ the code does something. The code itself should already say what is happening.
+Explain *why* the code does something. The code itself should already say what is happening.
 
 ###### Right:
 

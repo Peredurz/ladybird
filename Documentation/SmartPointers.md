@@ -61,7 +61,7 @@ Any (possibly null) pointer to `T` can be turned into an `OwnPtr<T>` by the glob
 OwnPtr<Foo> my_object = adopt_own_if_nonnull(new (nothrow) Foo);
 ```
 
-In this case, the _non-throwing_ `new` should be used to construct the raw pointer, which returns null if the allocation fails, instead of aborting the program.
+In this case, the *non-throwing* `new` should be used to construct the raw pointer, which returns null if the allocation fails, instead of aborting the program.
 
 **Note:** Always prefer the helper functions to manual construction.
 
@@ -125,7 +125,7 @@ Any (possibly null) pointer to a reference-counted object can be turned into a `
 RefPtr<Bar> our_object = adopt_ref_if_nonnull(new (nothrow) Bar);
 ```
 
-In this case, the _non-throwing_ `new` should be used to construct the raw pointer, which returns null if the allocation fails, instead of aborting the program.
+In this case, the *non-throwing* `new` should be used to construct the raw pointer, which returns null if the allocation fails, instead of aborting the program.
 
 **Note:** Always prefer the helper functions to manual construction.
 

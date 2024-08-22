@@ -101,7 +101,7 @@ or type `:CocConfig` in the command line.
 > work towards your desired config by adding the other parts back in to avoid
 > conflicts.
 
-> **Note**: If you have configured `clangd` as a language server in
+> **Note**: If you have configured `clangd` as a languageServer in
 > `coc-settings.json`, you should remove it to avoid running clangd twice!
 
 > **Note**: `clangd.inlayHints.sep` breaks on `clangd 15.0.6`.

@@ -227,7 +227,7 @@ The section lists out some particular error messages you may run into, and expla
 
 Solution to try: If you do in fact already have Ninja installed, then first try reinstalling Ninja.
 
-Details: If you see the message _“Unable to find a build program corresponding to "Ninja"”_, it’s likely not an indication that the build tooling can’t actually find Ninja, but instead an indication that the tooling found Ninja, but it failed to run successfully.
+Details: If you see the message *“Unable to find a build program corresponding to "Ninja"”*, it’s likely not an indication that the build tooling can’t actually find Ninja, but instead an indication that the tooling found Ninja, but it failed to run successfully.
 
 So, when you do run into that error message, the way to start figuring out what’s actually wrong is to try invoking Ninja manually, like this:
 
@@ -235,7 +235,7 @@ So, when you do run into that error message, the way to start figuring out what�
 ninja -C Build/ladybird
 ```
 
-Then, based on what output you get from that, you can troubleshoot the _actual_ problem you’re running into — which may involve uninstalling your current Ninja install, and then re-installing it.
+Then, based on what output you get from that, you can troubleshoot the *actual* problem you’re running into — which may involve uninstalling your current Ninja install, and then re-installing it.
 
 ### Resource files
 

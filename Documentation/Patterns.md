@@ -224,7 +224,7 @@ TEST_CASE(string_view_literal_operator)
 ## Source Location
 
 C++20 added std::source_location, which lets you capture the
-callers **FILE** / **LINE** / **FUNCTION** etc. as a default
+callers `__FILE__` / `__LINE__` / `__FUNCTION__` etc. as a default
 argument to functions.
 See: https://en.cppreference.com/w/cpp/utility/source_location
 
